@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"D1, D3, D5, D7",0603,4,GREEN,C72043
+"D1, D3, D5, D7",0603,4,EMERALD,C2984266
 "D2, D4, D6, D8",D_SOD-123,4,1N4148,C81598
 J1,TerminalBlock_Dibo_DB141V-2.54-6P_1x06_P2.54mm_Vertical,1,DG141V-2.54-6P,C2898747
 J2,TerminalBlock_Dibo_DB142V-5.08-8P_1x08_P5.08mm_Vertical,1,DB142V-5.08-8P,C2898705
