@@ -10,6 +10,145 @@
 		(rev "V1")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -198,261 +337,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x06"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_1_1"
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1779,7 +1663,7 @@
 		(uuid "ca6ffe2e-d5a7-4832-8dc4-dd0439bb970a")
 	)
 	(junction
-		(at 40.64 81.28)
+		(at 40.64 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb36eceb-9ee6-404c-9764-e6eb83c020ad")
@@ -1972,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 72.39) (xy 40.64 81.28)
+			(xy 40.64 63.5) (xy 40.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 81.28) (xy 40.64 81.28)
+			(xy 34.29 72.39) (xy 40.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 40.64 83.82)
+			(xy 34.29 74.93) (xy 40.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 72.39) (xy 49.53 81.28)
+			(xy 49.53 63.5) (xy 49.53 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 40.64 81.28)
+			(xy 49.53 72.39) (xy 40.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 83.82) (xy 40.64 81.28)
+			(xy 40.64 74.93) (xy 40.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2889,6 +2773,111 @@
 			(type default)
 		)
 		(uuid "ff72da92-18f5-4edc-b183-4d934fcfc840")
+	)
+	(text "CORRENTE NO LED\n24V - 2,85V = 21,15V\n21,15V / 6800R = 3,11mA"
+		(exclude_from_sim no)
+		(at 76.2 134.62 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "4ca228c0-467d-42a4-bab8-9d8c3cf82682")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 29.21 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0014643e-b36b-4b34-bba1-aad7d27dc3ac")
+		(property "Reference" "J1"
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB141V-2.54-2P"
+			(at 29.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tales:TerminalBlock_Dibo_DB141V-2.54-2P_1x02_P2.54mm_Vertical"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0919fd5-6797-4561-9d36-e932be8ebe1f")
+		)
+		(pin "1"
+			(uuid "b7cdad10-bf84-460c-9f2c-154013716a42")
+		)
+		(instances
+			(project ""
+				(path "/57cfb5e7-a9ab-4784-80b3-e51e693f5cc8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+24V")
@@ -3401,158 +3390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 29.21 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "310a8837-f9af-4863-986e-c1b095b61863")
-		(property "Reference" "J1"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DB141V-2.54-6P"
-			(at 29.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Tales:TerminalBlock_Dibo_DB141V-2.54-6P_1x06_P2.54mm_Vertical"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2898748"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "DORABO"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "DB141V-2.54-5P"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C2898748"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "~"
-			(at 29.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5987d756-d065-4e3e-9a3e-a91bbec48ec1")
-		)
-		(pin "2"
-			(uuid "9f1b0a48-4b2d-4260-84c6-23a472bfdd3a")
-		)
-		(pin "3"
-			(uuid "926836fc-dbdf-446c-a576-58eceb4474fd")
-		)
-		(pin "4"
-			(uuid "5a5b17ec-d564-4e30-b08c-54e29e966378")
-		)
-		(pin "5"
-			(uuid "70e258cb-9931-45c3-9966-17a3f3329d2e")
-		)
-		(pin "6"
-			(uuid "8b1bd4ab-e140-40e3-8027-e45c4b77687b")
-		)
-		(instances
-			(project "relay-24v-4ch-8a-v1"
-				(path "/57cfb5e7-a9ab-4784-80b3-e51e693f5cc8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 77.47 71.12 0)
 		(unit 1)
@@ -3570,7 +3407,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k6/100mW"
+		(property "Value" "6k8/100mW"
 			(at 74.93 71.12 0)
 			(effects
 				(font
@@ -3624,7 +3461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805W8F4701T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -3642,7 +3479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -3651,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -3759,34 +3596,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 49.53 72.39 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 29.21 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "642e8343-c419-46ad-949a-ab03be0c546e")
-		(property "Reference" "#FLG0101"
-			(at 49.53 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 49.53 68.58 0)
+		(uuid "631ca196-8ce0-4e1b-bd31-a0e5b8594b8a")
+		(property "Reference" "J2"
+			(at 29.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 72.39 0)
+		(property "Value" "DB141V-2.54-4P"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tales:TerminalBlock_Dibo_DB141V-2.54-4P_1x04_P2.54mm_Vertical"
+			(at 29.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3630,109 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 72.39 0)
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7e8c2da-ac50-46ce-941e-6cc677baf3a6")
+		)
+		(pin "3"
+			(uuid "f42341cc-a6f1-40e0-be4b-698f6e3689e2")
+		)
+		(pin "2"
+			(uuid "792a9e09-047d-4f3c-a06f-3cfbc08d6297")
+		)
+		(pin "1"
+			(uuid "1a9cc03d-9b63-4538-9096-fc906b4b42db")
+		)
+		(instances
+			(project ""
+				(path "/57cfb5e7-a9ab-4784-80b3-e51e693f5cc8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "642e8343-c419-46ad-949a-ab03be0c546e")
+		(property "Reference" "#FLG0101"
+			(at 49.53 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3741,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 72.39 0)
+			(at 49.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +3920,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k6/100mW"
+		(property "Value" "6k8/100mW"
 			(at 74.93 109.22 0)
 			(effects
 				(font
@@ -4037,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805W8F4701T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -4055,7 +3992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -4064,7 +4001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -4672,7 +4609,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k6/100mW"
+		(property "Value" "6k8/100mW"
 			(at 162.56 111.76 0)
 			(effects
 				(font
@@ -4726,7 +4663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805W8F4701T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -4744,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -4753,7 +4690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -5131,9 +5068,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9293078e-ab4e-4a8d-9b0b-93747560d65d")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 261.62 95.2499 0)
 			(effects
 				(font
@@ -5142,7 +5078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "DB142V-5.08-4P"
 			(at 261.62 97.7899 0)
 			(effects
 				(font
@@ -5265,7 +5201,7 @@
 		(instances
 			(project ""
 				(path "/57cfb5e7-a9ab-4784-80b3-e51e693f5cc8"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5279,9 +5215,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93369d62-e729-485a-91ac-cd9f49c6b8e7")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 261.62 57.1499 0)
 			(effects
 				(font
@@ -5290,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "DB142V-5.08-4P"
 			(at 261.62 59.6899 0)
 			(effects
 				(font
@@ -5413,7 +5348,7 @@
 		(instances
 			(project ""
 				(path "/57cfb5e7-a9ab-4784-80b3-e51e693f5cc8"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5437,7 +5372,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k6/100mW"
+		(property "Value" "6k8/100mW"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -5491,7 +5426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805W8F4701T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -5509,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -5518,7 +5453,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -5783,7 +5718,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 40.64 72.39 0)
+		(at 40.64 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5791,7 +5726,7 @@
 		(dnp no)
 		(uuid "c9fdb620-d3c8-47f8-86a5-341d87d02479")
 		(property "Reference" "#PWR0102"
-			(at 40.64 76.2 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5735,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 41.021 67.9958 0)
+			(at 41.021 59.1058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 72.39 0)
+			(at 40.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 72.39 0)
+			(at 40.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 40.64 72.39 0)
+			(at 40.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
