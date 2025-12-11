@@ -536,15 +536,23 @@
         "bus_width": 12,
         "name": "INPUTS",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "LEDS",
+        "pcb_color": "rgb(255, 0, 232)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 232)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "OUTPUTS",
         "pcb_color": "rgb(46, 194, 77)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(46, 194, 77)",
         "wire_width": 6
       },
@@ -552,16 +560,8 @@
         "bus_width": 12,
         "name": "PWR24V",
         "pcb_color": "rgb(255, 0, 4)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 4)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "name": "PWRGND",
-        "pcb_color": "rgb(132, 132, 132)",
-        "priority": 3,
-        "schematic_color": "rgb(132, 132, 132)",
         "wire_width": 6
       }
     ],
@@ -571,18 +571,6 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "PWRGND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "INPUTS",
-        "pattern": "/Input*/IN*"
-      },
-      {
-        "netclass": "OUTPUTS",
-        "pattern": "/Output*/OUT*"
-      },
       {
         "netclass": "INPUTS",
         "pattern": "/IN*"
@@ -596,8 +584,8 @@
         "pattern": "+24*"
       },
       {
-        "netclass": "PWR24V",
-        "pattern": "/Power/+24*"
+        "netclass": "LEDS",
+        "pattern": "/LED*"
       }
     ]
   },
