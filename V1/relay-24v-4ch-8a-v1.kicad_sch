@@ -3016,6 +3016,51 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2898744"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "DORABO"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "DB141V-2.54-2P-GN"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C2898744"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0919fd5-6797-4561-9d36-e932be8ebe1f")
 		)
@@ -3256,7 +3301,7 @@
 		(dnp no)
 		(uuid "0e2c0149-206c-4cf9-8acd-b2c8289d8bcc")
 		(property "Reference" "K3"
-			(at 113.03 135.89 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,12 +3410,11 @@
 			)
 		)
 		(property "LCSC Part #" "C2931104"
-			(at 104.14 133.35 0)
+			(at 118.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3839,6 +3883,51 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2898746"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "DORABO"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "DB141V-2.54-4P-GN"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C2898746"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c7e8c2da-ac50-46ce-941e-6cc677baf3a6")
 		)
@@ -4227,7 +4316,7 @@
 		(dnp no)
 		(uuid "6eab2f5c-d9b7-4121-b414-cabe5e3ada74")
 		(property "Reference" "K4"
-			(at 204.47 139.7 0)
+			(at 204.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,12 +4425,11 @@
 			)
 		)
 		(property "LCSC Part #" "C2931104"
-			(at 195.58 137.16 0)
+			(at 209.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4375,7 +4463,7 @@
 		(dnp no)
 		(uuid "7d769293-2f2d-474b-b23e-99d9d40ede96")
 		(property "Reference" "K1"
-			(at 113.03 73.66 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,12 +4572,11 @@
 			)
 		)
 		(property "LCSC Part #" "C2931104"
-			(at 104.14 71.12 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6822,7 +6909,7 @@
 		(dnp no)
 		(uuid "facdf818-f7cd-43ad-bc93-ff9b4bbbd1b9")
 		(property "Reference" "K2"
-			(at 204.47 77.47 0)
+			(at 204.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,12 +7018,11 @@
 			)
 		)
 		(property "LCSC Part #" "C2931104"
-			(at 195.58 74.93 0)
+			(at 209.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

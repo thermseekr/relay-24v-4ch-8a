@@ -1,8 +1,8 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "D1, D3, D5, D7",0603,4,WHITE,C2290
 "D2, D4, D6, D8",D_SOD-123,4,1N4148,C81598
-J1,TerminalBlock_Dibo_DB141V-2.54-2P_1x02_P2.54mm_Vertical,1,DB141V-2.54-2P,
-J2,TerminalBlock_Dibo_DB141V-2.54-4P_1x04_P2.54mm_Vertical,1,DB141V-2.54-4P,
+J1,TerminalBlock_Dibo_DB141V-2.54-2P_1x02_P2.54mm_Vertical,1,DB141V-2.54-2P,C2898744
+J2,TerminalBlock_Dibo_DB141V-2.54-4P_1x04_P2.54mm_Vertical,1,DB141V-2.54-4P,C2898746
 "J3, J4",TerminalBlock_Dibo_DB142V-5.08-4P_1x04_P5.08mm_Vertical,2,DB142V-5.08-4P,C2898701
 "K1, K2, K3, K4",Relay_SPST_Omron-G5Q-1A,4,G5Q-1A4-DC24V,C2931104
 "R1, R2, R3, R4",0603,4,10k/100mW,C25804
