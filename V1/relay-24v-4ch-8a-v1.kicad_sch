@@ -2867,7 +2867,7 @@
 		)
 		(uuid "ae3fbeb8-608d-47c9-8a06-ff29665e91c1")
 	)
-	(label "OUT3PW"
+	(label "OUT3LN"
 		(at 245.11 116.84 0)
 		(effects
 			(font
@@ -2887,7 +2887,7 @@
 		)
 		(uuid "ae3fbeb8-608d-47c9-8a06-ff29665e91c3")
 	)
-	(label "OUT4PW"
+	(label "OUT4LN"
 		(at 245.11 121.92 0)
 		(effects
 			(font
@@ -2907,7 +2907,7 @@
 		)
 		(uuid "ae3fbeb8-608d-47c9-8a06-ff29665e91c5")
 	)
-	(label "OUT1PW"
+	(label "OUT1LN"
 		(at 245.11 54.61 0)
 		(effects
 			(font
@@ -2927,7 +2927,7 @@
 		)
 		(uuid "ae3fbeb8-608d-47c9-8a06-ff29665e91c7")
 	)
-	(label "OUT2PW"
+	(label "OUT2LN"
 		(at 245.11 59.69 0)
 		(effects
 			(font
